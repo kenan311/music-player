@@ -1,0 +1,52 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.logo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sidebar nav ul li a.active {
+  font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.explore {
+  margin: 20px;
+}
+
+.explore-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.explore-item {
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
